@@ -96,3 +96,13 @@ footer{
     background-color: lightgrey;
     text-align: center;
 }
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}

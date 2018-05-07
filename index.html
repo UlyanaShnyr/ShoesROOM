@@ -36,10 +36,12 @@
                     <a class="nav-link headName smooth" href="#footer">Footer <span class="sr-only">(current)</span></a>
                 </li>           
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+           <div>
+                <a class="nav-link" href="#cartModal" data-toggle="modal">
+                    <i class="fab fa-opencart fa-spin" aria-hidden="true"></i>
+                    Cart<span id="cart-badge" class="badge badge-light"></span>
+                </a>
+            </div>
         </div>
       </nav>
     </header>
@@ -245,6 +247,8 @@
     <script src="js/swiper.min.js"></script>
     <script src="js/animate.js"></script>
     <script src="js/smooth-scroll.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper('.swiper-container', {
